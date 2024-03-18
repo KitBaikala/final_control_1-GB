@@ -50,3 +50,18 @@ int CountStringSymbols(string[] workArray)
     return counter;
 }
 
+string[] GenerateNewArray(string[] workArray)
+{
+    int resultArrayLength = CountStringSymbols(workArray);
+    string[] resultArray = new string[resultArrayLength];
+    int i = 0;
+    foreach (string item in workArray)
+    {
+        if (item.Length <= 3)
+        {
+            resultArray[i] = item;
+            i++;
+        }
+    }
+    return resultArray;
+}
