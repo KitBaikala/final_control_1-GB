@@ -37,3 +37,16 @@ string PrintArray(string[] workArray)
     return stringArray;
 }
 
+int CountStringSymbols(string[] workArray)
+{
+    int counter = 0;
+    foreach (string item in workArray)
+    {
+        if (item.Length <= 3)
+        {
+            counter++;
+        }
+    }
+    return counter;
+}
+
