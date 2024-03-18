@@ -13,7 +13,7 @@ Console.WriteLine(firstArray + " -> " + secondArray);
 
 string[] FillArray()
 {
-    Console.WriteLine("Введите данные через пробел, по окончании ввода нажмите Enter: ");
+    Console.WriteLine("Введите элементы исходного массива через пробел, и нажмите Enter: ");
     string? enterSymbols = Console.ReadLine();
     if (enterSymbols == null) { enterSymbols = ""; };
     char[] separators = new char[] { ',', ' ' };
