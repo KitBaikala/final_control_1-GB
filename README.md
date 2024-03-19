@@ -21,7 +21,8 @@
 5. Использовать контроль версий - используется в процессе выполнения всех задач перманентно.
 
 
-3. ![блок-схема]([dog.png "Собака смотрит влево"](https://github.com/KitBaikala/final_control_1-GB/blob/master/final_control_1-GB/Аллгоритм.png)
+3. ![блок-схема](https://github.com/KitBaikala/final_control_1-GB/blob/master/final_control_1-GB/Аллгоритм.png)
+ 
 
 
    
